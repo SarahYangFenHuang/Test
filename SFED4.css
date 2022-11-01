@@ -67,7 +67,7 @@ body {
 
   #left_main_box{
     background-color: rgb(149, 228, 32);
-    color: black;
+    color: rgb(237, 156, 15);
     margin-left: 5%;
     padding-left: 20px;
     text-align: left;
@@ -78,8 +78,8 @@ body {
 
 
   #right_main_box{
-    background-color: rgb(77, 213, 237);
-    color: black;
+    background-color: rgb(222, 229, 230);
+    color: rgb(112, 87, 87);
     margin-left: 25%;
     padding-top: 15px;
     padding-left: 15px;
@@ -87,12 +87,13 @@ body {
     width: 69%;
     height: 300px;
     position: relative;
+  
   }
 
   
   #left_footer{
     background-color: rgb(110, 105, 178);
-    color: white;
+    color: rgb(160, 2, 2);
     margin-left: 5%;
     width: 90%;
     height: 125px;
