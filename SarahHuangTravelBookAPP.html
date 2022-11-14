@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="stylesSarah.css">
+
+    </head>
+    <body>
+<div class="wrapper">
+    <div class="title">
+Booking Details
+    </div>
+  
+    <div class="form">
+
+        <div class="input_field">
+            <input id="oneway" type="radio" name="radio">
+            <label for="oneway">One Way</label><br>
+            <input id="roundtrip" type="radio" name="radio">
+            <div class="radio-tile">
+            <label for="roundtrip">Round Trip</label><br>
+            </div>
+        
+        </div>
+    
+        
+    <div class="input_field">
+        <label>From:</label>
+        <input type="text" class="input"><br>
+        <br>
+
+        <br><br><label>To:</label>
+        <input type="text" class="input"><br>
+
+    </div>
+
+    <div class="input_field">
+        <label>Departure Date:</label>
+        <input type="date" class="input" name="date" id="date" placeholder="date" requried>
+        <br>
+        <br><br><label>Return Date:</label>
+        <input type="date" class="input" name="date" id="date" placeholder="date" requried>
+    </div>
+    <div class="title">
+       Number of Passengers
+        </div>
+        <div class="input_field">
+            <label>Adults: </label><br>
+            <input type="text"  class="input"><br>
+            
+            <label>Children: </label><br>
+            <input type="text"  class="input"><br>
+        </div>
+
+        <div class="title">
+            Passenger #1 Details
+             </div>
+             <div class="input_field">
+                 <label>Name</label>
+                 <input type="text" class="input"><br>
+                 <label>Gender</label>
+                 <input id="male" type="radio" name="radio"><br>
+                 <label for="male">Male</label><br>
+                 <input id="female" type="radio" name="radio"><br>
+                 <label for="female">Female</label><br>
+
+                <label>Age:</label><br>
+                 <input type="text" class="input"><br>
+             </div>
+             <div class="title">
+                Passenger #2 Details
+                 </div>
+                 <div class="input_field">
+                     <label>Name</label>
+                     <input type="text" class="input"><br>
+                     <br>
+                     <label>Gender</label>
+                     <input id="male" type="radio" name="radio"><br>
+                     <label for="male">Male</label><br>
+                     <input id="female" type="radio" name="radio"><br>
+                     <label for="female">Female</label><br>
+                    <label>Age:</label><br>
+                     <input type="text" class="input"><br>
+                 </div>
+                 <div class="title">
+                    Passenger #3 Details
+                     </div>
+
+
+
+
+                     <div class="input_field">
+                         <label>Name</label>
+                         <input type="text" class="input"><br>
+                         <br>
+                         <label>Gender</label>
+                         <input id="male" type="radio" name="radio"><br>
+                         <label for="male">Male</label><br>
+                         <input id="female" type="radio" name="radio"><br>
+                         <label for="female">Female</label><br>
+                        <label>Age:</label><br>
+                         <input type="text" class="input"><br>
+                     </div>
+
+ <div class="input_field">
+<label>Food Type:</label>
+<div class="custom_select">
+     <select>
+        <option value="">Select</option>
+        <option value="vegan">Vegan</option>
+        <option value="normal">Normal</option>
+        <option value="fruitplatter">Fruit Platter</option>                 
+    </select>
+</div>
+<label>Travel Class:</label>
+<div class="custom_select">
+<select>
+    <option value="">Select</option>
+    <option value="first">First</option>
+     <option value="business">Business</option>
+     <option value="economy">Economy</option>
+                            
+     </select>
+</div>
+                    </div>
+ <div class="title">
+    Payment Details
+ </div>
+ <div class="input_field">
+        <label>Full Name:</label>
+         <input type="text" class="input"><br>
+          <br>
+          <br><br><label>Email:</label>
+    <input type="text" class="input"><br>
+    <br><br><label>Mobile:</label>
+    <input type="text" class="input"><br>
+ </div>
+ <div class="input_field">
+    <label>Address</label>
+    <textarea class="textarea"></textarea>
+</div>
+   
+        <div class="input_field">
+            <label>Member</label><br>
+            <div class="custom_select">
+<select>
+    <option value="">Select</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+
+</select>
+        </div>
+    </div>
+
+    <div class="input_field terms">
+        <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <p>Agreed to terms and conditions</p>
+    </div>
+    <div class="input_field">
+        <input type="submit" value="SEND" class="btn">
+    </div>
+    </div>
+</div>
+    </body>
+</html>
